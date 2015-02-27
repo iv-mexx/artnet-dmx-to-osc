@@ -20,6 +20,7 @@ __Network Settings:__
 
 * ```UDP_PORT_ARTNET```: Listening-Port for ArtNet Input - ```6454``` is standard for ArtNet
 * ```UDP_PORT_OSC```: Port to which the OSC messages are sent - has to be configured to match the receiver, default is ```3333```
+* ```IP_OSC_TARGET```: IP of the OSC receiver - has to be configured, default is ```127.0.0.1``` aka ```localhost```
 
 __Routing Settings:__
 
