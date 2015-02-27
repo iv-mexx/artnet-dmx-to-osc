@@ -6,8 +6,8 @@
     "start": "node ./app.js"
   },
   "dependencies": {
-    "artnet-node": "0.1.0",
-    "node-osc": "0.3.0"
+    "node-osc": "0.3.0",
+    "jspack": "0.0.4"
   },
   "contributors": [
     {
