@@ -1,0 +1,18 @@
+{
+  "name": "DMX2OSC",
+  "version": "0.0.0",
+  "description": "Web-Server that receives ArtNet DMX and translates it to OSC Messages",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "artnet-node": "0.1.0",
+    "node-osc": "0.3.0"
+  },
+  "contributors": [
+    {
+      "name": "Markus Chmelar",
+      "email": "markus.chmelar@innovaptor.com"
+    }
+  ]
+}
