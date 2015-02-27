@@ -1,10 +1,10 @@
 {
-  "name": "ArtNet DMX -> OSC",
+  "name": "DMX2OSC",
   "version": "0.0.0",
   "description": "Web-Server that receives ArtNet DMX and routes it to OSC Messages",
   "author": {
-      "name": "Markus Chmelar",
-      "email": "markus.chmelar@innovaptor.com"
+    "name": "Markus Chmelar",
+    "email": "markus.chmelar@innovaptor.com"
   },
   "scripts": {
     "start": "node ./app.js"
@@ -13,12 +13,11 @@
     "dmx",
     "artnet",
     "osc",
-    "udp",
-  ]
+    "udp"
+  ],
   "dependencies": {
     "node-osc": "0.3.0",
     "jspack": "0.0.4"
   },
-  "contributors": [
-  ]
+  "contributors": []
 }
