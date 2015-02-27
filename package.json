@@ -2,6 +2,10 @@
   "name": "DMX2OSC",
   "version": "0.0.0",
   "description": "Web-Server that receives ArtNet DMX and translates it to OSC Messages",
+  "author": {
+      "name": "Markus Chmelar",
+      "email": "markus.chmelar@innovaptor.com"
+  },
   "scripts": {
     "start": "node ./app.js"
   },
@@ -10,9 +14,5 @@
     "jspack": "0.0.4"
   },
   "contributors": [
-    {
-      "name": "Markus Chmelar",
-      "email": "markus.chmelar@innovaptor.com"
-    }
   ]
 }
